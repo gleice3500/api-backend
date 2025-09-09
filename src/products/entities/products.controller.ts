@@ -11,9 +11,9 @@ import {
   ParseIntPipe, // Pipe para transformar e validar o ID
 } from '@nestjs/common';
 import { ProductsService } from './products.service';
-import { CreateProductDto } from './dto/create-product.dto';
-import { UpdateProductDto } from './dto/update-products.dto';
-import { ProductEntity } from './entities/product.entity';
+import { CreateProductDto } from '../dto/create-product.dto';
+import { UpdateProductDto } from '../dto/update-products.dto';
+import { ProductEntity } from '../entities/product.entity';
 
 /**
  * O Controller é responsável por receber as requisições HTTP,
