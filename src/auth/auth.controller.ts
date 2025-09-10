@@ -17,5 +17,3 @@ export class AuthController {
     return this.authService.login(user);
   }
 }
-
-//./dto/login.dto
